@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 :root {
-    --yellow: aquamarine;
+    --yellow: rgb(6, 249, 168);
 }
 
 * {
@@ -238,6 +238,7 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
+    background-color: pink;
     width: 27rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
