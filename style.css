@@ -134,7 +134,8 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-    background: var(--yellow);
+    background: aquamarine;
+    color: black;
 }
 
 #menu {
