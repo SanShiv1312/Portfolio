@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 :root {
-    --yellow: rgb(6, 249, 168);
+    --yellow: #00FA9A;
 }
 
 * {
@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: #111;
+    background: linear-gradient(black, #e6e6fa);
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -64,7 +64,8 @@ section {
 }
 
 .btn:hover {
-    background: var(--yellow);
+    background: aquamarine;
+    color: #222;
 }
 
 .heading {
@@ -428,4 +429,21 @@ header .navbar ul li a:hover {
     .contact .row form {
         margin: 3rem 0;
     }
+}
+
+.theme-toggler {
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+    backdrop-filter: blur(.4rem);
+}
+
+.theme-toggler span {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 2rem 2.5rem;
+    box-shadow: 0 0 0 .5rem rgba(255, 255, 255, .2), 0 1rem 2rem rgba(0, 0, 0, .4);
 }
